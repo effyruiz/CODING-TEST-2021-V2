@@ -1,0 +1,36 @@
+body {
+  background-color: #fff;
+}
+
+h3{
+  text-align: center;
+  padding-top: 3rem!important;
+  color: #9e5d3d;
+  font-family: egoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif
+}
+
+h1 {
+  text-align: center;
+  color: #9e5d3d;
+  font-family: egoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif
+}
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .flex-item-left {
+    flex: 50%;
+    justify-content: left;
+    align-items: left;
+    position: relative;
+  }
+  
+  .flex-item-right {
+    flex: 50%;
+    justify-content: right;
+    align-items: right;
+    position: relative;
+  }
+
+  
