@@ -16,21 +16,38 @@ h1 {
 }
 .flex-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row; 
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
   }
-  
+
+ 
   .flex-item-left {
-    flex: 50%;
-    justify-content: left;
-    align-items: left;
-    position: relative;
+    width: 50%;
+    padding-right: 5rem;
+  }
+
+  .flex-item-left img {
+    width:100%;
   }
   
   .flex-item-right {
-    flex: 50%;
-    justify-content: right;
-    align-items: right;
-    position: relative;
+    width: 50%;
   }
+
+  .right-container-title {
+    border-bottom: grey;
+  }
+
+  .flex-container-wrap {
+    display: flex;
+    flex-flow: wrap; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+
 
   
