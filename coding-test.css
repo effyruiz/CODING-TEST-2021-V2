@@ -1,53 +1,52 @@
 body {
-  background-color: #fff;
+	background-color: #fff;
 }
 
-h3{
-  text-align: center;
-  padding-top: 3rem!important;
-  color: #9e5d3d;
-  font-family: egoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif
+h3 {
+	text-align: center;
+	padding-top: 3rem !important;
+	color: #9e5d3d;
+	font-family: egoe UI ',Roboto,' Helvetica Neue ',Arial,' Noto Sans ','
+			Liberation Sans
+			',sans-serif
 }
 
 h1 {
   text-align: center;
   color: #9e5d3d;
-  font-family: egoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif
+  font-family: egoe UI',
+		Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans',
+		sans-serif;
 }
 .flex-container {
-    display: flex;
-    flex-flow: row; 
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
+	display: flex;
+	flex-flow: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+}
 
- 
-  .flex-item-left {
-    width: 50%;
-    padding-right: 5rem;
-  }
+.flex-item-left {
+	width: 50%;
+	padding-right: 5rem;
+}
 
-  .flex-item-left img {
-    width:100%;
-  }
-  
-  .flex-item-right {
-    width: 50%;
-  }
+.flex-item-left img {
+	width: 100%;
+}
 
-  .right-container-title {
-    border-bottom: grey;
-  }
+.flex-item-right {
+	width: 50%;
+}
 
-  .flex-container-wrap {
-    display: flex;
-    flex-flow: wrap; 
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  
+.right-container-title {
+	border-bottom: grey;
+}
 
-
-  
+.flex-container-wrap {
+	display: flex;
+	flex-flow: wrap;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+}
