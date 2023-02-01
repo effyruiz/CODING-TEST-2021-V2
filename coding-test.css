@@ -1,20 +1,28 @@
 body {
 	background-color: #fff;
+  font-family: egoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
 }
 
 h3 {
 	text-align: center;
 	padding-top: 3rem !important;
 	color: #9e5d3d;
-	font-family: egoe UI ',Roboto,' Helvetica Neue ',Arial,' Noto Sans ','
-			Liberation Sans, sans-serif
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  font-size: 1rem;
+
 }
 
 h1 {
   text-align: center;
   color: #9e5d3d;
-  font-family: egoe UI, Roboto, 'Helvetica Neue', Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-size: 1.9rem;
 }
+
+
+
 .flex-container {
 	display: flex;
 	flex-flow: row;
@@ -36,11 +44,64 @@ h1 {
   padding: 0 10rem;
 }
 
+h4 {
+  font-weight: 500;
+  font-size: larger;
+  letter-spacing: 1.2px;
+}
+
+#caracter {
+  font-size: x-small;
+  font-weight: bold;
+}
+
+
+span {
+  color: #9e5d3d;
+  font-weight: 400;
+  text-decoration: underline;
+  letter-spacing: 1.2px;
+}
+
+
+.right-container-title {
+  font-weight: 100;
+  letter-spacing: 1.2px;
+  font-size: medium;
+}
+
+h6 {
+  font-weight: 400;
+  color: #963030;
+  margin-left: 2rem;
+}
+
+
+
+del {
+  font-size: small;
+}
+
+
+
 .toggle-container {
   border-bottom: 1px solid grey;
   border-top: 1px  solid grey;
   margin-bottom: 1rem;
 }
+
+h2 {
+  font-size: x-small;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+
+#content {
+font-size: xx-small;
+font-weight: 100;
+letter-spacing: 1.2px;
+}
+
 
 .product-data {
   display: flex;
@@ -59,7 +120,7 @@ h1 {
 
 .input-container-50 label {
   font-weight: bold;
-font-size: 12px;
+  font-size: 10px;
   margin-bottom: 12px;
 }
 
